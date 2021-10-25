@@ -14,7 +14,9 @@ app.get('/', (req, res) => {
       description: 'Test description',
     },
   ];
-  res.render('index', { articles: articles });
+  res.render('articles/index', { articles: articles });
 });
 
 app.listen(5000);
+
+//  https://www.youtube.com/watch?v=1NrHkjlWVhM&t=307s 24:00
